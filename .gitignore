@@ -1,0 +1,12 @@
+*node_modules*
+*bower_components*
+*.a
+examples/android/.idea/
+examples/web/.idea/
+signaling_server/.idea/
+examples/android/.gradle/
+examples/android/android.iml
+examples/android/app/app.iml
+examples/android/app/build/
+examples/android/local.properties
+

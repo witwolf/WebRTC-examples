@@ -1,0 +1,190 @@
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol, ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#container {
+    width: 800px;
+    height: 680px;
+    margin: 10px auto;
+}
+
+#users {
+    width: 200px;
+    height: 630px;
+    background-color: #ebebeb;
+    float: left;
+    overflow: hidden;
+}
+
+#users ul li {
+    padding: 5px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#users ul li:first-child{
+    pointer-events: none;
+}
+
+#users ul li:hover div {
+    background-color: #dcdcdc;
+}
+
+#users ul li a {
+    display: block;
+}
+
+#users .cont {
+    position: relative;
+}
+
+#users .cont img {
+    width: 50px;
+    height: 50px;
+    background: url(../images/Mr.Zhong-laughing-s.png) no-repeat 50% 50%;
+    background-size: cover;
+    float: left;
+}
+
+#users .cont .quit {
+    width: 10px;
+    height: 10px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(-100%, -50%);
+    -moz-transform: translate(-100%, -50%);
+    -o-transform: translate(-100%, -50%);
+    -ms-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+#users .cont .info {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+#users .cont .info p {
+    padding: 10px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.videoArea {
+    border-top: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    width: 600px;
+    height: 180px;
+    float: left;
+}
+
+.videoArea video{
+    background: #D0CCCC;
+    width: 280px;
+    height: 180px;
+}
+
+#localVideo {
+    margin: 5px 0 0 5px;
+    float: left;
+}
+
+#remoteVideo{
+    margin: 5px 5px 0;
+    float:right;
+}
+
+
+
+.chatArea {
+    width: 600px;
+    height: 420px;
+    background: #fff;
+    float: left;
+    /*border-top: 1px solid #dcdcdc;*/
+    border-right: 1px solid #dcdcdc;
+    overflow-y: scroll;
+}
+
+.input {
+    width: 600px;
+    height: 30px;
+    /*border-right: 1px solid #dcdcdc;*/
+    border: 1px solid #dcdcdc;
+    outline: none;
+    padding-left: 10px;
+    float: left;
+}
+
+.chatArea ul li {
+    padding: 5px;
+}
+
+.chatArea ul li.self {
+
+}
+
+.chatArea ul li div {
+    height: 50px;
+}
+
+.chatArea ul li.self {
+    text-align: left;
+}
+
+.chatArea ul li.self div img {
+    width: 50px;
+    height: 50px;
+    background: url(../images/Mr.Zhong-laughing-s.png) no-repeat 50% 50%;
+    background-size: cover;
+    float: left;
+}
+
+.chatArea ul li.other div p {
+    padding: 5px 60px 5px 5px;
+}
+
+.chatArea ul li.self div p {
+    padding: 5px 5px 5px 60px;
+}
+
+.chatArea ul li.other {
+    text-align: right;
+}
+
+.chatArea ul li.other div img {
+    width: 50px;
+    height: 50px;
+    background: url('../images/Mr.Zhong-cute.png') no-repeat 50% 50%;
+    background-size: cover;
+    float: right;
+}
